@@ -1,10 +1,11 @@
 import "./App.css";
-import CakeContainer from './components/CakeContainer';
+import CakeContainer from "./components/CakeContainer";
 function App() {
-  return <div className="App">
-{/* Cake Shop */}
-<CakeContainer />
-  </div>;
+  return (
+    <div className="App">
+      <CakeContainer />
+    </div>
+  );
 }
 
 export default App;
