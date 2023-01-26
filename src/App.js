@@ -1,8 +1,9 @@
 import "./App.css";
+import CakeContainer from './components/CakeContainer';
 function App() {
   return <div className="App">
-
-     //react setup
+{/* Cake Shop */}
+<CakeContainer />
   </div>;
 }
 
