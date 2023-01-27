@@ -9,4 +9,11 @@ const CakeContainer = () => {
   )
 };
 
+const mapStateToProps = state=>{
+  return {
+    numberOfCakes: state.numberOfCakes
+
+  }
+}
+
 export default CakeContainer;
