@@ -1,4 +1,4 @@
-import IceCreamReducer from './IceCream/IceCreamReducer'
+import IceCreamReducer from './IceCream/IceCreamReducer';
 import CakeReducer from './cakes/CakeReducer'
 import { combineReducers } from 'redux'
 
